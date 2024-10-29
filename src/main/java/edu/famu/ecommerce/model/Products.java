@@ -20,6 +20,7 @@ public class Products {
     private String imageUrl;
     private String name;
     private Timestamp createdAt;
+    private double price;
 
     private void setTimestampAt(String createdAt) throws ParseException {
         this.createdAt = Timestamp.fromProto(Timestamps.parse(createdAt));
@@ -31,5 +32,9 @@ public class Products {
 
     public void setCreatedAt(Timestamp createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public double getPrice() {
+        return price;
     }
 }

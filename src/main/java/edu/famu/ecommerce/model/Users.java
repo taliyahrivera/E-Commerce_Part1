@@ -21,4 +21,7 @@ public class Users {
     private Map<String,Object> address;
 
 
+    public Users(String userId) {
+        this.userId = userId;
+    }
 }
