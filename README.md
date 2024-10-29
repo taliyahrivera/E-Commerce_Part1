@@ -6,6 +6,7 @@
 - [X] allow users to browse products, add them to a shopping cart, and place orders securely
   
 ## **BONUS**
+- [X] Admin Service(optional)
 - [] (2pts) Views should be responsive for both landscape/portrait mode.
 
     - [] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
