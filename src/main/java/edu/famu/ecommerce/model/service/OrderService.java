@@ -59,7 +59,7 @@ public class OrderService {
                 }
             }
         }
-        return new RestOrders(null, "Order not found", null, null, null, null); // Return response if order not found
+        return new RestOrders(null, null, null, null, "Order not found", null); // Return response if order not found
     }
 }
 

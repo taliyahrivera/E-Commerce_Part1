@@ -5,6 +5,7 @@ import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.*;
 import com.google.firebase.cloud.FirestoreClient;
 import edu.famu.ecommerce.model.Users;
+import edu.famu.ecommerce.model.util.UserResponse;
 import org.springframework.stereotype.Service;
 
 import java.text.ParseException;

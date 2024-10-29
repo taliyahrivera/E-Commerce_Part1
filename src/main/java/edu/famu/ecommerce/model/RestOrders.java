@@ -21,4 +21,10 @@ public class RestOrders extends AOrders{
         this.orderId = orderId;
         this.products = products;
     }
+
+    public RestOrders(Timestamp createdAt, String orderPlacedSuccessfully, ArrayList<Map<String, Object>> shippingInfo, Integer totalAmount, String orderId, ArrayList<Map<String, Object>> products) {
+        super(createdAt, orderPlacedSuccessfully, shippingInfo, totalAmount);
+        //this.orderId = orderId;
+        this.products = products;
+    }
 }

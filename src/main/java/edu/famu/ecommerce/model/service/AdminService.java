@@ -58,7 +58,7 @@ public class AdminService {
                 }
             }
         }
-        return new RestOrders(null, "Order not found", null, null, null, null); // Return if order not found
+        return new RestOrders(null, null, null, null, "Order not found", null); // Return if order not found
     }
 
     private DocumentReference getDocumentReferenceFromOrderId(String orderId) {
